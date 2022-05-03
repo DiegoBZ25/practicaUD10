@@ -98,6 +98,7 @@ namespace PracticaUD10_JaviDiego_
             this.button1.TabIndex = 6;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tListaSocios
             // 
@@ -107,6 +108,7 @@ namespace PracticaUD10_JaviDiego_
             this.tListaSocios.ReadOnly = true;
             this.tListaSocios.Size = new System.Drawing.Size(658, 204);
             this.tListaSocios.TabIndex = 7;
+            this.tListaSocios.TextChanged += new System.EventHandler(this.tListaSocios_TextChanged);
             // 
             // Form1
             // 

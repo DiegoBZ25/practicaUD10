@@ -31,5 +31,18 @@ namespace PracticaUD10_JaviDiego_
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nombre = tNombre.Text;
+            string apellidos = tApellidos.Text;
+            string tel = tTelefono.Text;
+
+            tListaSocios.Text = nombre + " " + apellidos + " " + tel;
+        }
+        private void tListaSocios_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
