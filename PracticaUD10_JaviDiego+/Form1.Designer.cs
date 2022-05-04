@@ -85,9 +85,9 @@ namespace PracticaUD10_JaviDiego_
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(493, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Telefono:";
+            this.label3.Text = "Movil:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button1
